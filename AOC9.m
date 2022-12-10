@@ -2,7 +2,7 @@ close all
 clc
 clear
 
-lines = readtable('input9.txt');
+lines = readlines('input9.txt');
 number=readmatrix('input9.txt');
 
 for i=1:length(lines)
